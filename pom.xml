@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <parent>
-        <groupId>com.rbkmoney</groupId>
+        <groupId>dev.vality</groupId>
         <artifactId>library-parent-pom</artifactId>
         <version>1.0.2</version>
     </parent>
@@ -12,25 +12,25 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
     <artifactId>custom-actuator-endpoints</artifactId>
-    <version>0.0.5</version>
+    <version>0.0.1</version>
 
     <name>Custom actuator endpoints</name>
     <description>Actuator info enrichment</description>
-    <url>https://github.com/rbkmoney/custom-actuator-endpoints.git</url>
+    <url>https://github.com/valitydev/custom-actuator-endpoints.git</url>
 
     <developers>
         <developer>
             <name>Nikita Pospolita</name>
-            <email>n.pospolita@rbkmoney.com</email>
-            <organization>RBK.money</organization>
-            <organizationUrl>https://rbk.money</organizationUrl>
+            <email>n.pospolita@vality.dev</email>
+            <organization>Vality</organization>
+            <organizationUrl>https://vality.dev</organizationUrl>
         </developer>
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/rbkmoney/custom-actuator-endpoints.git</connection>
-        <developerConnection>scm:git:ssh://github.com/rbkmoney/custom-actuator-endpoints.git</developerConnection>
-        <url>https://github.com/rbkmoney/custom-actuator-endpoints/tree/master</url>
+        <connection>scm:git:git://github.com/valitydev/custom-actuator-endpoints.git</connection>
+        <developerConnection>scm:git:ssh://github.com/valitydev/custom-actuator-endpoints.git</developerConnection>
+        <url>https://github.com/valitydev/custom-actuator-endpoints/tree/master</url>
     </scm>
 
     <dependencies>
@@ -52,7 +52,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.12</version>
+            <version>1.18.22</version>
         </dependency>
     </dependencies>
 </project>

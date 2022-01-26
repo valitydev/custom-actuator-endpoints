@@ -1,6 +1,6 @@
-package com.rbkmoney.actuator.configuration;
+package dev.vality.actuator.configuration;
 
-import com.rbkmoney.actuator.indicators.ServiceVersionHealthIndicator;
+import dev.vality.actuator.indicators.ServiceVersionHealthIndicator;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.actuate.health.HealthIndicator;
 import org.springframework.boot.actuate.info.InfoEndpoint;
