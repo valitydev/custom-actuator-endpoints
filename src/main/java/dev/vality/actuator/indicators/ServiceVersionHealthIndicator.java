@@ -1,4 +1,4 @@
-package com.rbkmoney.actuator.indicators;
+package dev.vality.actuator.indicators;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

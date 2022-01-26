@@ -1,3 +1,3 @@
 #Auto Configure
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.rbkmoney.actuator.configuration.AdditionalHealthInfoConfiguration
+dev.vality.actuator.configuration.AdditionalHealthInfoConfiguration
